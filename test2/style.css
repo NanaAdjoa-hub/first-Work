@@ -1,0 +1,154 @@
+
+
+
+.nav {
+    display: inline-flex;
+    width:100%;
+    justify-content: space-between;
+}
+
+.leftNav {
+    width: 50%;
+    background-color: #fff;
+}
+.leftNav img{
+    width:50px;
+    margin-left:50px;
+}
+
+.rightNav {
+    width: 50%;
+    background-color: #fff;
+    display:inline-flex;
+    
+}
+.rightNav ul{
+    width:100%;
+    display:inline-flex;
+    list-style: none;
+    justify-content: space-evenly;
+    margin: 20px;
+    cursor:pointer;
+    
+}
+.rightNav ul li:hover{
+    color:red;
+   
+}
+.content{
+    width:100%;
+    display: inline-flex;
+    justify-content: space-between;
+}
+.leftContent{
+    width:60%;
+
+}
+.leftImage{
+
+    width:100%;
+    height:400px;
+   padding:20px 0 10px 0;
+}
+.leftContent img{
+    width:100%;
+    /* top:20px; */
+    position:relative;
+
+}
+.leftContent-box{
+    display:inline-flex;
+    width:100%;
+    /* justify-content: space-between; */
+}
+.leftItem{
+    width:50%;
+}
+.leftItem h1{
+    width:80%;
+    text-align: justify;
+    font-size: 35px;
+    margin-left: 20px;;
+
+}
+.leftItem2 h1{
+    width:50%;
+    text-align: justify;
+    font-size: 16px;
+    margin:20px;
+    margin-left: 300px;;
+    
+}
+.leftItem2 .read{
+    width:95px;
+    height:40px;
+    background-color: rgb(255, 50, 50);
+    color:#fff;
+    border-radius: 1px;
+    border:none;
+    margin-left: 300px;
+    cursor: pointer;
+}
+.rightContent{
+    width:25%;
+    height: 490px;
+    margin-right: 100px;
+    margin-top: 40px;
+    display: inline-flex;
+    background-color: black;
+
+}
+.rightContent h1{
+    font-size: 28px;
+    margin:20px;
+
+
+}
+.rightItem li{
+    color:#fff;
+    padding:0 20px 0 ;
+}
+.rightItem h2{
+    color:#fff;
+    font-size: 15px;
+    margin:20px;
+
+}
+hr{
+    margin:20px;
+
+}
+.bottomContent{
+    width:100%;
+    display:inline-flex;
+    margin-top: 40px;
+    justify-content: space-evenly;
+   
+
+}
+.bottomItem{
+    width:100%;
+    display: inline-flex;
+    justify-content: space-between;
+  
+}
+.bottomImage{
+    width:30%;
+
+    
+
+}
+.bottomItem img{
+    width:70px;
+    height:120px;
+    margin-left: 70px;
+    margin-top: 20px;
+
+}
+.bottomitems1{
+    width:70%;
+    
+  
+}
+
+
